@@ -128,6 +128,9 @@
             case "6":
             imagemFundo = "7.png";
             break;
+            default:
+            imagemFundo = "atenção.png"
+            break
             }
             // Abrir uma nova guia com o resultado
             const novaGuia = window.open();
@@ -149,4 +152,6 @@
             `);
           
             novaGuia.document.close();
+            location.reload()
         }
+        
