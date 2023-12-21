@@ -1,0 +1,67 @@
+/* Estilos gerais */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(#091C52,#0755B2, #091C52);
+    margin: 0;
+    padding: 0;
+    
+}
+img {
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    margin-top:2%;
+    margin-left: 51%;
+}
+h1 {
+    
+    background-color: #fff;
+    height: auto;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+    color: #0755B2;
+    padding-top: 50px;
+
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #0755B2;
+    color: #eef9ff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #091C52;
+}
+
+/* Estilos para as perguntas */
+h3 {
+    color: #0e246b;
+    margin-top: 20px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilos para as opções de resposta */
+input[type="radio"] {
+    margin-right: 5px;
+}
